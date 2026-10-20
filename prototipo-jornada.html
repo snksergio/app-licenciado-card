@@ -10,16 +10,13 @@
 <style>
 /* ---------- Tokens ---------- */
 :root{
+  color-scheme:light;
   --page:#E6E9EB; --page-ink:#15191B; --page-muted:#5E666B; --page-line:#D2D8DB; --page-card:#FFFFFF; --page-chip:#EEF1F2;
   --app-bg:#EFF1F2; --surface:#FFFFFF; --ink:#0D0F0F; --muted:#6A6E71; --line:#ECEEEF; --soft:#F1F2F3;
   --primary:#338449; --accent:#EBF3ED; --base:#22A45A; --lime:#B6E36B;
   --blue-bg:#E4F0FC; --blue-ink:#1F6FB8; --warn-bg:#FFF4E5; --warn-ink:#A75A05;
   --font:"Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){ --page:#141719; --page-ink:#E8ECEE; --page-muted:#99A2A8; --page-line:#2A3034; --page-card:#1C2023; --page-chip:#252A2E; }
-}
-:root[data-theme="dark"]{ --page:#141719; --page-ink:#E8ECEE; --page-muted:#99A2A8; --page-line:#2A3034; --page-card:#1C2023; --page-chip:#252A2E; }
 
 *{box-sizing:border-box}
 html,body{margin:0}

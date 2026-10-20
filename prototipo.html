@@ -10,6 +10,7 @@
 <style>
 /* ---------- Tokens ---------- */
 :root{
+  color-scheme:light;
   /* moldura de apresentação (fora do celular) */
   --page:#E6E9EB; --page-ink:#15191B; --page-muted:#5E666B; --page-line:#D2D8DB; --page-card:#FFFFFF; --page-chip:#EEF1F2;
   /* app (valores do Figma App-iGreen-Energy) */
@@ -20,10 +21,6 @@
   --hot:#7F77F1;
   --font:"Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){ --page:#141719; --page-ink:#E8ECEE; --page-muted:#99A2A8; --page-line:#2A3034; --page-card:#1C2023; --page-chip:#252A2E; }
-}
-:root[data-theme="dark"]{ --page:#141719; --page-ink:#E8ECEE; --page-muted:#99A2A8; --page-line:#2A3034; --page-card:#1C2023; --page-chip:#252A2E; }
 
 *{box-sizing:border-box}
 html,body{margin:0}
